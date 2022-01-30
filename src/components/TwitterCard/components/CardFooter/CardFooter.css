@@ -1,0 +1,86 @@
+:root {
+  --main-padding: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: grey;
+  padding: 0 var(--main-padding);
+}
+
+.likes-field {
+  display: flex;
+  justify-content: space-between;
+}
+
+.likes-field .likes-img {
+  padding-right: 4px;
+  width: 20px;
+}
+
+.date-field {
+  width: 80%;
+}
+
+.footer img {
+  width: 20px;
+  height: 20px;
+}
+
+.comments {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 var(--main-padding);
+}
+
+.comments .comments-arrow-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.comments-field {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comments-field img {
+  margin-right: 4px;
+  width: 20px;
+}
+
+.comments-url {
+  width: 80%;
+}
+
+.photo-container {
+  border: 1px solid rgb(211, 211, 211);
+  margin-bottom: 16px;
+  border-radius: 16px 16px;
+}
+
+.photo-container img {
+  border-radius: 16px 16px 0px 0px;
+}
+
+.photo-description {
+  padding-left: var(--main-padding);
+  padding-bottom: var(--main-padding);
+}
+.photo-description a {
+  color: grey;
+}
+
+hr {
+  border-top: 1px solid rgb(211, 211, 211);
+}
+
+.comments-field div {
+  padding-right: 8px;
+}
+
+.header-content .verified-icon {
+  width: 24px;
+}

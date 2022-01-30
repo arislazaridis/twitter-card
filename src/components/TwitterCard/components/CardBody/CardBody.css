@@ -1,0 +1,31 @@
+:root {
+  --main-padding: 16px;
+}
+
+.body {
+  padding: 0 var(--main-padding);
+}
+
+.body img {
+  width: 100%;
+  height: "auto";
+}
+
+.photo-container {
+  min-height: 400;
+  border: 1px solid rgb(211, 211, 211);
+  margin-bottom: 16px;
+  border-radius: 16px 16px;
+}
+
+.photo-container img {
+  border-radius: 16px 16px 0px 0px;
+}
+
+.photo-description {
+  padding-left: var(--main-padding);
+  padding-bottom: var(--main-padding);
+}
+.photo-description a {
+  color: grey;
+}

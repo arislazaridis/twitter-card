@@ -1,0 +1,32 @@
+:root {
+  --main-padding: 16px;
+}
+
+.header {
+  padding: 0 var(--main-padding);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header-content img {
+  width: 48px;
+  margin-right: 16px;
+}
+
+.header-small-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.header-content .verified-icon {
+  width: 24px;
+}

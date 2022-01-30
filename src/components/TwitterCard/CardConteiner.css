@@ -1,0 +1,10 @@
+:root {
+  --main-padding: 16px;
+}
+
+.container {
+  width: 100%;
+  border: 1px solid rgb(211, 211, 211);
+  padding: var(--main-padding) 0;
+  border-radius: 8px;
+}
